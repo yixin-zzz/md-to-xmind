@@ -1,0 +1,36 @@
+{
+  "name": "md-to-xmind",
+  "version": "0.0.1",
+  "description": "A node.js tool to get bookmarks from weread",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "marker": "node lib/main start"
+  },
+  "author": "yixin_zzz",
+  "license": "ISC",
+  "dependencies": {
+    "@textlint/markdown-to-ast": "^6.1.7",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.15",
+    "remark": "^11.0.2",
+    "remark-parse": "^7.0.2",
+    "traverse": "^0.6.6",
+    "unified": "^8.4.2",
+    "xmind": "^2.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yixin-zzz/md-to-xmind.git"
+  },
+  "keywords": [
+    "markdown",
+    "xmind"
+  ],
+  "bugs": {
+    "url": "https://github.com/yixin-zzz/md-to-xmind/issues"
+  },
+  "homepage": "https://github.com/yixin-zzz/md-to-xmind#readme"
+}
